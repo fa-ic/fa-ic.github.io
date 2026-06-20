@@ -1,0 +1,208 @@
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-0J350BP7YE"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-0J350BP7YE'); -->
+    </script>
+
+    <meta charset="utf-8" />
+    <title>FAIC: Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms</title>
+
+    <!-- TODO: update preview image (data/preview_card.jpg is still the PyRoki placeholder) and og:url/domain once the paper link is ready -->
+    <!-- Website Metadata -->
+    <meta content="Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms in Dynamic Environments" name="description" />
+    <meta content="FAIC: Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms" property="og:title" />
+    <meta content="Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms in Dynamic Environments" property="og:description" />
+    <meta content="http://www.pyroki-toolkit.github.io/data/preview_card.jpg" property="og:image" />
+    <meta content="FAIC: Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms" property="twitter:title" />
+    <meta content="Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms in Dynamic Environments" property="twitter:description" />
+    <meta content="http://www.pyroki-toolkit.github.io/data/preview_card.jpg" property="twitter:image" />
+    <meta property="og:type" content="website" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Changa One:400,400italic", "Varela Round:400", "Bungee Shade:regular", "Roboto:300,regular,500", "Bungee Outline:regular"] } });</script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+
+    <!-- JQuery, scripts etc -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- Stylesheets; tabler icons, fonts, ...-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <link href="data/favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div>
+        <!-- Title, Subtitle, Authors -->
+        <div>
+            <h1 class="title">
+                FAIC
+            </h1>
+            <div class="base-row">
+                <div style="padding: 2px;">
+                    <h1 class="subheader">
+                        Fuzzy-based Adaptive Impedance Control
+                    </h1>
+                </div>
+            </div>
+            <div class="base-row">
+                <div style="padding: 2px;">
+                    <h1 class="subheader">
+                        with Force Observation for Humanoid Arms in Dynamic Environments
+                    </h1>
+                </div>
+            </div>
+
+            <!-- Author list: no personal links per author request; numbered affiliation superscripts -->
+            <div class="base-row add-top-padding">
+                <div style="padding: 2px;">
+                    <span class="author-text">Dinh Hieu Pham</span>
+                    <span class="text-star">1,2,*</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Manh Cuong Nguyen</span>
+                    <span class="text-star">1,3,*</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Huy Minh Khoi Hoang</span>
+                    <span class="text-star">1</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Viet Anh Vu</span>
+                    <span class="text-star">1</span>
+                </div>
+            </div>
+            <div class="base-row">
+                <div style="padding: 2px;">
+                    <span class="author-text">Duc Tuan Pham</span>
+                    <span class="text-star">1</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Manh Duy Ngo</span>
+                    <span class="text-star">1</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Duc Cuong Vu</span>
+                    <span class="text-star">1,2,4</span>
+                    <div style="width: 1.25em; display: inline-block"></div>
+                    <span class="author-text">Minh Nhat Vu</span>
+                    <span class="text-star">1,&dagger;</span>
+                </div>
+            </div>
+            <div style="text-align: center">
+                <span class="text-star">*</span>These authors contributed equally.
+                <div style="width: 1.5em; display: inline-block"></div>
+                <span class="text-star">&dagger;</span>Corresponding author.
+            </div>
+
+            <!-- Affiliations, numbered to match the author superscripts above -->
+            <div class="section add-top-padding base-row" style="text-align: center;">
+                <span class="affil-text"><span class="text-star">1</span>VinRobotics JSC</span>
+                <div style="width: 1.25em; display: inline-block"></div>
+                <span class="affil-text"><span class="text-star">2</span>SEEE, HUST</span>
+                <div style="width: 1.25em; display: inline-block"></div>
+                <span class="affil-text"><span class="text-star">3</span>CEI, VinUniversity</span>
+                <div style="width: 1.25em; display: inline-block"></div>
+                <span class="affil-text"><span class="text-star">4</span>EEE, NTU</span>
+            </div>
+
+            <!-- Affiliation logos -->
+            <div class="add-top-padding" style="text-align: center;">
+                <img id="affil-logo" src="data/logo.png" alt="VinRobotics, VinUniversity, HUST, NTU logos" />
+            </div>
+        </div>
+
+        <!-- Paper / code URLs -->
+        <!-- TODO: add the paper link once available; no code repository to link yet -->
+        <div class="add-top-padding">
+            <div style="
+                    display: flex;
+                    justify-content: center;
+                    gap: 0.75em;
+                    flex-wrap: wrap;
+                ">
+                <a href="#" target="_blank">
+                    <button>
+                        <i class="ti ti-article"></i>
+                        <span class="link-labels-text">Paper (coming soon)</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Abstract -->
+        <div class="section add-top-padding">
+            <h1 id="abstract" style="text-align: center;">Abstract</h1>
+            <p class="paragraph" style="text-align: justify;">
+                Achieving simultaneous safety and positional accuracy during physical human-robot interaction
+                remains a fundamental challenge for humanoid arms. Due to their kinematic redundancy and operation
+                in dense, unstructured environments, these systems are highly susceptible to unexpected collisions.
+                Furthermore, classical impedance control frameworks applied to such complex mechanisms exhibit an
+                inherent trade-off between tracking precision and compliance, typically necessitating the
+                integration of costly force sensors. This paper introduces a novel Fuzzy-based Adaptive Impedance
+                Control (FAIC) framework designed to overcome the traditional accuracy-compliance barrier,
+                delivering a dynamically adaptive interaction strategy that is strictly force-sensor-free. Central
+                to this approach is the integration of a Generalized Momentum Observer (GMO) with a lightweight
+                fuzzy logic mechanism. Instead of relying on direct hardware measurements, the framework employs
+                estimated forces from the GMO to drive a fuzzy inference system, enabling the real-time modulation
+                of impedance parameters. This mechanism maintains high stiffness for precise trajectory tracking in
+                free space while actively transitioning to a highly compliant state upon physical contact, thereby
+                mitigating collision impacts in redundant structures. Validated through simulations and experiments
+                on a physical 7-DOF humanoid manipulator, the proposed framework successfully eliminates the need
+                for direct force sensing. Results demonstrate that FAIC significantly reduces interaction energy
+                and contact forces compared to position control methods, confirming it as a highly effective
+                solution for safe, robust humanoid robotics applications.
+            </p>
+        </div>
+
+        <!-- Experiment video -->
+        <!-- TODO: data/teaser.mp4 is still a placeholder asset; replace with the real experiment footage -->
+        <div class="section add-top-padding">
+            <video id="main-video" autobuffer muted autoplay loop controls>
+                <source id="mp4" src="data/teaser.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Citation: commented out until the paper is officially published
+        <div class="section add-top-padding" style="text-align: center;">
+            <h1>Citation</h1>
+            <div class="citation" style="text-align: left;">
+            <pre id="codecell0">
+@inproceedings{pham2026faic, % TODO: update citation key once published
+  title={Fuzzy-based Adaptive Impedance Control with Force Observation for Humanoid Arms in Dynamic Environments},
+  author={Pham*, Dinh Hieu and Nguyen*, Manh Cuong and Hoang, Huy Minh Khoi and Vu, Viet Anh and Pham, Duc Tuan and Ngo, Manh Duy and Vu, Duc Cuong and Vu, Minh Nhat},
+  booktitle={TODO: conference/journal name}, % TODO
+  year={2026}, % TODO: update year
+  url={TODO: paper link}, % TODO
+}
+</pre>
+            </div>
+        </div>
+        -->
+        <footer>
+            <div class="section" style="margin-top: 40px;">
+                <p class="paragraph">
+                    The website template is based on the following project websites:
+                    <a href="https://www.lerf.io">LERF</a>,
+                    <a href="https://brentyi.github.io/tilted/">TILTED</a>,
+                    <a href="https://egoallo.github.io/">EgoAllo</a>
+                    .
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
